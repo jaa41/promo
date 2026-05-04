@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Georgia, serif; background: transparent; }
+
+    .banner {
+      border: 1px solid #d4a853;
+      border-radius: 6px;
+      padding: 16px 20px;
+      background: #fdfaf4;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      max-width: 640px;
+    }
+
+    .banner img {
+      width: 70px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .banner-text h3 {
+      font-size: 15px;
+      color: #1a1a1a;
+      margin-bottom: 4px;
+    }
+
+    .banner-text p {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 7px 16px;
+      background: #1a1a1a;
+      color: white;
+      text-decoration: none;
+      font-size: 13px;
+      border-radius: 4px;
+    }
+
+    .btn:hover { background: #333; }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <!-- Substitua pelo link real da capa do livro -->
+    <img src="https://URL_DA_CAPA_DO_LIVRO.jpg" alt="Interrogatório Eficaz">
+    <div class="banner-text">
+      <h3>📖 Interrogatório Eficaz — Jorge Araujo</h3>
+      <p>O método para conduzir audiências com precisão e controle.
+         2ª edição ampliada, prefácio do Min. Aloysio Corrêa da Veiga.</p>
+      <a class="btn" href="https://URL_DE_COMPRA_DO_LIVRO" target="_blank">
+        Conheça o livro →
+      </a>
+    </div>
+  </div>
+</body>
+</html>
